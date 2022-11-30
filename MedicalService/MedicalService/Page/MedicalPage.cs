@@ -19,7 +19,6 @@ namespace MedicalService.Page
         public IWebElement Date => driver.FindElement(By.Id("txt_visit_date"));
         public IWebElement Comment => driver.FindElement(By.Id("txt_comment"));
         public IWebElement ButtonApp => driver.FindElement(By.Id("btn-book-appointment"));
-
         public IWebElement Confirm => driver.FindElement(By.CssSelector(".text-center h2"));
     }
 }
